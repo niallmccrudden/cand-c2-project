@@ -1,0 +1,16 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),App ALB,Application Load Balancer,0,96.43,1157.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Web ALB,Application Load Balancer,0,96.43,1157.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Web EC2,Amazon EC2,0,2103.55,25242.6,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances  ), Storage amount (200 GB), Instance type (t3.2xlarge)"
+My Estimate,US East (N. Virginia),RDS Master,Amazon RDS for MySQL,0,2874.32,34491.84,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (1000 GB), Provisioning IOPS (3500), Quantity (1), Instance type (db.m5.2xlarge), Deployment option (Single-AZ), Pricing strategy (OnDemand), Additional backup storage (20000 GB)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,358.68,4304.16,USD,S3 Standard storage (15 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Removed the read replica in the short term as the system has enough capacity to run without it. This does come with some risk. If there are critical problems with the master database, we will have no replica to promote",,,,,,,,
